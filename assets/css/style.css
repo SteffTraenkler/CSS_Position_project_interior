@@ -1,0 +1,172 @@
+/* #070707, #9d9f9f, #f4f7f8 und #AC8059 */
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: #070707;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    width: 100vw;
+    display: inline-block;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #9d9f9f;
+}
+
+a{
+    text-decoration: none;
+    color: #9d9f9f;
+    text-transform: uppercase;
+}
+
+a:hover{
+    color: #f4f7f8;
+}
+
+header ul li{
+    position:relative;
+    display: inline-block;
+    padding: 1em 3em 1.5em 2em;
+}
+
+header ul li:first-of-type a:first-of-type{
+    padding: 0 35em 0 5em ;
+    font-size: smaller;
+    margin: 0 0 0 2em;
+}
+
+header div img{
+    width: 2vw;
+    height: 4vh;
+    position: fixed;
+    top: 1.5vh;
+    left: 2.5vw;
+}
+
+/* main */
+
+    /* images */
+
+main div img{
+    width: 15vw;
+    height:70vh;
+    top: 15%;
+}
+
+main div:nth-of-type(4) img{
+    position: absolute;
+    right: 0;
+}
+
+main div:nth-of-type(2) img{
+    position: absolute;
+    right: 16.5%;
+}
+
+main div:nth-of-type(3) img{
+    position: absolute;
+    right: 33%;
+}
+
+    /* h1+p */
+
+main div:nth-of-type(1){
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    color: #9d9f9f;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+main div:nth-of-type(1) p a{
+    color: #AC8059;
+    font-size: 0.8em;
+    margin-left: 4rem;
+    line-height: 4rem;
+}
+
+main div:nth-of-type(1) p a:hover{
+    color: #f4f7f8;
+}
+
+main div:nth-of-type(1) div{
+    background-color: #AC8059;
+    height: 2px;
+    width: 40px;
+    position: absolute;
+    top: 90%;
+    left: 3%;
+}
+
+/* main done */
+
+/* footer */
+
+footer{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+footer ul {
+    width: 40vw;
+}
+
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+footer div{
+    border: 1px solid #9d9f9f;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 0.5em;
+    /* display: inline-block;
+    margin: -5vh 5vw 0 80vw; */
+}
+
+footer div:nth-of-type(1){
+    position: absolute;
+    left:83vw;
+    bottom: 0.1vh;
+}
+
+footer div:nth-of-type(1):hover{
+    border-color: #AC8059;
+}
+
+footer div:nth-of-type(2){
+    position: absolute;
+    left:90vw;
+    bottom: 0.1vh;
+}
+
+footer div:nth-of-type(2):hover{
+    border-color: #AC8059;
+}
+
+.fa-chevron-left{
+    color: #9d9f9f;
+}
+
+.fa-chevron-right{
+    color: #9d9f9f;
+}
